@@ -1,0 +1,14 @@
+body {
+    display: flex;
+}
+.left {
+    flex: 1 1 50px ;
+}
+
+.right {
+    flex: auto;
+}
+
+.img, .bg-img{
+    height: 6rem;
+}

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: logo-font;
+    src: url(assets/Norse-Bold.otf);
+}
+
 body {
     display: flex;
 }
@@ -11,4 +16,8 @@ body {
 
 .img, .bg-img{
     height: 6rem;
+}
+
+.logo>.text{
+    font-family: logo-font;
 }
